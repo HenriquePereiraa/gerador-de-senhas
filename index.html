@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="Js/app.js" defer></script>
+    <title>Gerador de Senha</title>
+</head>
+<body>
+    
+    <div class="pw-container">
+            
+        <div class="pw-header">
+            <span id="pw">Yhas15*/</span>
+            <button  id="copy">Copiar</button>
+        </div>
+
+        <div class="pw-body">
+            <div class="form-control">
+                <label for="length">Qtd de caracteres</label>
+                <input type="number" id="length" value="10" min="5" max="20">
+            </div>
+
+            <div class="form-control">
+                <label for="upper">Maiuscula</label>
+                <input type="checkbox" id="upper">
+            </div>
+
+            <div class="form-control">
+                <label for="lower">Minuscula</label>
+                <input type="checkbox" id="lower">
+            </div>
+            <div class="form-control">
+                <label for="number">Numeros</label>
+                <input type="checkbox" id="number">
+            </div>
+            <div class="form-control">
+                <label for="symbols">Simbolos</label>
+                <input type="checkbox" id="symbols">
+            </div>
+
+            <button id="generate" class="btn-generate">Gerar Senha</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
